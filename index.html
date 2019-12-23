@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"/>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+</head>
+<body vlink="white"><center>
+	<div id="menu">
+		<table>
+			<tr>
+				<td>
+					<a href="#" onclick="Pomodoro();">Pomodoro</a>
+				</td>
+				<td>
+					<a href="#" id="td2" onclick="ShortBreak();">Short Break</a>
+				</td>
+				<td>
+					<a href="#" id="td3" onclick="LongBreak();">Long Break</a>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div id="timer">
+		00:00
+	</div>
+	<div id="b">
+		<button class='botao b1' onclick="start();">
+			<!--PLAY BUTTON-->
+			<i class="fas fa-play"></i>
+		</button>
+		<button class='botao b2' onclick="stop();">
+			<!--STOP BUTTON-->
+			<i class="fas fa-stop"></i>
+		</button>
+		<button class='botao b3' onclick="pause();">
+			<!--PAUSE BUTTON-->
+			<i class="fas fa-pause"></i>
+		</button>
+
+	</div>
+
+	<script src="script.js">
+
+	</script>
+</body>
+</html>
